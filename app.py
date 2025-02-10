@@ -80,7 +80,7 @@ if __name__ == "__main__":
 # In[2]:
 
 
-get_ipython().system('pip install flask flask-cors psycopg2-binary')
+#get_ipython().system('pip install flask flask-cors psycopg2-binary')
 
 
 # In[3]:
