@@ -1,0 +1,6 @@
+flask
+flask-cors
+psycopg2-binary
+numpy
+pandas
+scikit-learn
