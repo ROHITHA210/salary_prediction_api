@@ -8,7 +8,7 @@ import os
 app = Flask(__name__)
 
 # PostgreSQL Database URL from Railway
-DB_URL = os.getenv("DATABASE_URL", "your_postgresql_connection_url_here")
+DB_URL = os.getenv("DATABASE_URL", "postgresql://postgres:IfYbzdzkSkSWKJaxuPsryDzpYFLeKlQR@roundhouse.proxy.rlwy.net:39423/railway")
 
 # Route to check if API is running
 @app.route("/", methods=["GET"])
