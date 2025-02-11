@@ -156,8 +156,8 @@ Step 5: train a Linear Regression model for salary prediction and use K-Means fo
 
 Step 6: connect to PostgreSQL on Railway.app and create a table to store salary predictions:
 import psycopg2
-# PostgreSQL connection URL from Railway.app
-DB_URL = "postgresql://your_username:your_password@your_host:your_port/your_database"
+# PostgreSQL connection URL from Railway.app looks like: "postgresql://your_username:your_password@your_host:your_port/your_database"
+DB_URL = "postgresql://postgres:IfYbzdzkSkSWKJaxuPsryDzpYFLeKlQR@roundhouse.proxy.rlwy.net:39423/railway"
 try:
     # Connect to PostgreSQL
     conn = psycopg2.connect(DB_URL)
@@ -233,15 +233,6 @@ response = requests.post(url, json=data, headers=headers)
 # Display the response
 print("Response Status Code:", response.status_code)
 print("Predicted Salary Response:", response.json())
-
-
-
-
-
-
-
-
-
 
 
 
